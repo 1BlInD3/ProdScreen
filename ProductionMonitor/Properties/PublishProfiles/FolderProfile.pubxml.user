@@ -67,10 +67,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/18/2018 08:44:54</publishTime>
     </File>
     <File Include="bin/ProductionMonitor.dll">
-      <publishTime>12/09/2020 12:09:11</publishTime>
+      <publishTime>12/09/2020 13:59:28</publishTime>
     </File>
     <File Include="bin/ProductionMonitor.pdb">
-      <publishTime>12/09/2020 12:09:11</publishTime>
+      <publishTime>12/09/2020 13:59:28</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>05/24/2018 13:38:22</publishTime>
@@ -442,7 +442,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/14/2018 08:57:37</publishTime>
     </File>
     <File Include="Views/Home/DailyProd.cshtml">
-      <publishTime>12/09/2020 12:09:11</publishTime>
+      <publishTime>12/09/2020 13:59:28</publishTime>
     </File>
     <File Include="Views/Home/Group1View.cshtml">
       <publishTime>01/18/2019 08:33:39</publishTime>

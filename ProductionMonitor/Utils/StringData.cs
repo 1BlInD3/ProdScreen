@@ -79,7 +79,7 @@
         public static readonly string[] Munkahelyek = new string[]
         {
             "GCDAN",
-            //"LINOCUR",
+            "LINOCUR",
             "LM4",
             "SZINTER",
             //"BRAZING",
