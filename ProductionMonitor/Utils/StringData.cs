@@ -81,6 +81,7 @@
             "GCDAN",
             //"LINOCUR",
             "LM4",
+            "SZINTER",
             //"BRAZING",
             "HAL1",
             "HAL2",
