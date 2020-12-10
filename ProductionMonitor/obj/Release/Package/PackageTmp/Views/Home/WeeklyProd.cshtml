@@ -97,20 +97,25 @@
 
         <div style="position:absolute;right:0;width:90%;height:100%">
 
-            <div class="productivity-head" style="height:33.33%;width:28%;">Olv.szál</div>
-            <div class="productivity-target" style="height:33.33%;width:18%;">@Yearly.GetProduktivitas("OLVADÓSZÁL")</div>
+            <div class="productivity-head" style="height:25%;width:28%;">Olv.szál</div>
+            <div class="productivity-target" style="height:25%;width:18%;">@Yearly.GetProduktivitas("OLVADÓSZÁL")</div>
             @for (int i = 0; i < 3; i++)
-            {<div class="productivity-neutral" style="height:33.33%;width:18%;background-color:@Weekly.GetColor("OLVADÓSZÁL", i)">@Weekly.GetProduktivitas("OLVADÓSZÁL", i)</div>}
+            {<div class="productivity-neutral" style="height:25%;width:18%;background-color:@Weekly.GetColor("OLVADÓSZÁL", i)">@Weekly.GetProduktivitas("OLVADÓSZÁL", i)</div>}
 
-            <div class="productivity-head" style="height:33.33%;width:28%;border-bottom:1px solid white;">Sajtoló</div>
-            <div class="productivity-target" style="height:33.33%;width:18%;border-bottom:1px solid white;">@Yearly.GetProduktivitas("SAJTOLÓ")</div>
+            <div class="productivity-head" style="height:25%;width:28%;">Sajtoló</div>
+            <div class="productivity-target" style="height:25%;width:18%;">@Yearly.GetProduktivitas("SAJTOLÓ")</div>
             @for (int i = 0; i < 3; i++)
-            {<div class="productivity-neutral" style="height:33.33%;width:18%;border-bottom:1px solid white;background-color:@Weekly.GetColor("SAJTOLÓ", i)">@Weekly.GetProduktivitas("SAJTOLÓ", i)</div>}
+            {<div class="productivity-neutral" style="height:25%;width:18%;background-color:@Weekly.GetColor("SAJTOLÓ", i)">@Weekly.GetProduktivitas("SAJTOLÓ", i)</div>}
 
-            <div class="productivity-head" style="height:33.33%;width:28%;">Összesen</div>
-            <div class="productivity-target" style="height:33.33%;width:18%;">@Yearly.GetSummedProduktivitas(new string[] { "OLVADÓSZÁL", "SAJTOLÓ" })</div>
+            <div class="productivity-head" style="height:25%;width:28%;border-bottom:1px solid white;">Szinter</div>
+            <div class="productivity-target" style="height:25%;width:18%;border-bottom:1px solid white;">@Yearly.GetProduktivitas("SZINTER")</div>
             @for (int i = 0; i < 3; i++)
-            {<div class="productivity-neutral" style="height:33.33%;width:18%;background-color:@Weekly.GetSummedColor(new string[] { "OLVADÓSZÁL", "SAJTOLÓ" }, i)">@Weekly.GetSummedProduktivitas(new string[] { "OLVADÓSZÁL", "SAJTOLÓ" }, i)</div>}
+            {<div class="productivity-neutral" style="height:25%;width:18%;border-bottom:1px solid white;background-color:@Weekly.GetColor("SZINTER", i)">@Weekly.GetProduktivitas("SZINTER", i)</div>}
+
+            <div class="productivity-head" style="height:25%;width:28%;">Összesen</div>
+            <div class="productivity-target" style="height:25%;width:18%;">@Yearly.GetSummedProduktivitas(new string[] { "OLVADÓSZÁL", "SAJTOLÓ", "SZINTER" })</div>
+            @for (int i = 0; i < 3; i++)
+            {<div class="productivity-neutral" style="height:25%;width:18%;background-color:@Weekly.GetSummedColor(new string[] { "OLVADÓSZÁL", "SAJTOLÓ", "SZINTER" }, i)">@Weekly.GetSummedProduktivitas(new string[] { "OLVADÓSZÁL", "SAJTOLÓ", "SZINTER" }, i)</div>}
 
         </div>
 
@@ -169,10 +174,10 @@
             @for (int i = 0; i < 3; i++)
             {<div class="productivity-neutral" style="height:8.3333%;width:18%;background-color:@Weekly.GetColor("LMM", i)">@Weekly.GetProduktivitas("LMM", i)</div>}
 
-            <div class="productivity-head" style="height:8.3333%;width:28%;">LMM000</div>
+            @*<div class="productivity-head" style="height:8.3333%;width:28%;">LMM000</div>
         <div class="productivity-target" style="height:8.3333%;width:18%;">@Yearly.GetProduktivitas("LMM000")</div>
         @for (int i = 0; i < 3; i++)
-        {<div class="productivity-neutral" style="height:8.3333%;width:18%;background-color:@Weekly.GetColor("LMM000", i)">@Weekly.GetProduktivitas("LMM000", i)</div>}
+        {<div class="productivity-neutral" style="height:8.3333%;width:18%;background-color:@Weekly.GetColor("LMM000", i)">@Weekly.GetProduktivitas("LMM000", i)</div>}*@
 
             @*<div class="productivity-head" style="height:8.3333%;width:28%;">LMM4</div>
         <div class="productivity-target" style="height:8.3333%;width:18%;">@Yearly.GetProduktivitas("LMM4")</div>
@@ -190,10 +195,10 @@
             {<div class="productivity-neutral" style="height:8.3333%;width:18%;border-bottom:1px solid white;background-color:@Weekly.GetColor("NH-MERSEN EXTRA", i)">@Weekly.GetProduktivitas("NH-MERSEN EXTRA", i)</div>}
 
             <div class="productivity-head" style="height:8.3333%;width:28%;">Összesen</div>
-            <div class="productivity-target" style="height:8.3333%;width:18%;">@Yearly.GetSummedProduktivitas(new string[] { "HAL2", "HAL3", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM000", "LMMHC", "NH-MERSEN EXTRA", "TSA" })</div>
+            <div class="productivity-target" style="height:8.3333%;width:18%;">@Yearly.GetSummedProduktivitas(new string[] { "HAL2", "HAL3", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMMHC", "NH-MERSEN EXTRA", "TSA" })</div>
             @for (int i = 0; i < 3; i++)
-            {<div class="productivity-neutral" style="height:8.3333%;width:18%;background-color:@Weekly.GetSummedColor(new string[] { "HAL2", "HAL3", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM000", "LMMHC", "NH-MERSEN EXTRA", "TSA" }, i)">@Weekly.GetSummedProduktivitas(new string[] { "HAL2", "HAL3", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM000", "TSA", "LMMHC", "NH-MERSEN EXTRA" }, i)</div>}
-
+            {<div class="productivity-neutral" style="height:8.3333%;width:18%;background-color:@Weekly.GetSummedColor(new string[] { "HAL2", "HAL3", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMMHC", "NH-MERSEN EXTRA", "TSA" }, i)">@Weekly.GetSummedProduktivitas(new string[] { "HAL2", "HAL3", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMMHC", "NH-MERSEN EXTRA", "TSA" }, i)</div>}
+                                                                                                                                      
         </div>
 
     </div>
