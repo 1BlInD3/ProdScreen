@@ -82,7 +82,7 @@
             "LINOCUR",
             "LM4",
             "SZINTER",
-            //"BRAZING",
+            "BRAZING",
             "HAL1",
             "HAL2",
             "HAL3",

@@ -73,7 +73,7 @@
         /// </summary>
         /// <returns>The number of people worked converted to string</returns>
         public string GetDolgozokSzama()
-            => DolgozokSzama == null ? "—" : (((int)DolgozokSzama).ToString() + "fő");
+            => DolgozokSzama == null ? "—" : (((int) DolgozokSzama).ToString() + "fő");
         /// <summary>
         /// Gets a string describing a color function used in markup
         /// based on the target productivity and actual productivity.
@@ -218,7 +218,7 @@
                         FROM BiReports.dbo.VBI_LejelentettNormaIdo 
                         left outer join BiReports.dbo.VBI_LedolgOrak as DO on Munkahely=DO.MunkaHely and LejelentesIdeje=DO.BelepesIdeje
 
-                        where LejelentesIdeje='{((DateTime)date).Year.ToString()}-{((DateTime)date).Month.ToString()}-{((DateTime)date).Day.ToString()}' and Munkahely != 'BRAZING'
+                        where LejelentesIdeje='{((DateTime)date).Year.ToString()}-{((DateTime)date).Month.ToString()}-{((DateTime)date).Day.ToString()}'
 
                         group by case when Munkahely = 'ÁRAMVÁLTÓ CELLA VEZ.,GÉPBEÁLL.,ELŐKÉSZ.' OR Munkahely = 'ÁRAMVÁLTÓ TRANING' then 'ÁRAMVÁLTÓ EXTRA'
 			                          when Munkahely = 'HH CELLA VEZ.,GÉPBEÁLL.,ELŐKÉSZ.' OR Munkahely = 'HH TRANING' OR 
