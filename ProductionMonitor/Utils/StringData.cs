@@ -111,7 +111,7 @@
             "ÁRAMVÁLTÓ",
             "ÁRAMVÁLTÓ EXTRA",
             "WASTE",
-            "REWORK",
+            //"REWORK",
             "TROGGER"
         };
     }

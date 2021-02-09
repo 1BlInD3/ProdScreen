@@ -14,7 +14,7 @@
         /// <summary>
         /// The target growth of productivity (%)
         /// </summary>
-        public static readonly decimal TARGET_PRODUCTIVITY_GROWTH = 4.0M;
+        public static readonly decimal TARGET_PRODUCTIVITY_GROWTH = 3.0M;
 
         public string Munkahely { get; set; }
         public decimal? NormaIdo { get; set; }
