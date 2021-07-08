@@ -44,14 +44,14 @@
             "HH",
             "MV",
             "BRAZING",
-            "LINOCUR"
+            "LINOCURSZER"
         };
 
         public static readonly string[] Group3 = new string[]
         {
             "HAL2",
             "HAL3",
-            "HALM",
+            //"HALM",
             "TSA",
             "NH-WEBER"
         };
@@ -79,14 +79,14 @@
         public static readonly string[] Munkahelyek = new string[]
         {
             "GCDAN",
-            "LINOCUR",
+            "LINOCURSZER",
             "LM4",
             "SZINTER",
             "BRAZING",
-            "HAL1",
+            //"HAL1",
             "HAL2",
             "HAL3",
-            "HALM",
+            //"HALM",
             "HH",
             "HH MV EXTRA",
             "LM1",
@@ -94,10 +94,10 @@
             "LM3",
             "LMA000",
             "LMM",
-            "LMM000",
+            //"LMM000",
             "LMM4",
             "LMMHC",
-            "MSM3",
+            //"MSM3",
             "MV",
             "NH-MERSEN EXTRA",
             "NH-MSCH EXTRA",

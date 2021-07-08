@@ -301,7 +301,7 @@
 
         <div style="position:absolute;right:0;width:90%;height:100%">
 
-            @{var LinocurReport = Daily.GetReport("LINOCUR");}
+            @{var LinocurReport = Daily.GetReport("LINOCURSZER");}
             <div class="head-cell grid" style="height:50%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white;border-bottom:1px solid white">Linocur</div>
             <div class="neutral-cell grid" style="height:50%;width:18%;border-bottom:1px solid white">@LinocurReport.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:50%;width:18%;border-bottom:1px solid white">@LinocurReport.GetNormaIdo()</div>
@@ -310,7 +310,7 @@
 
 
 
-            @{var LinocurTotalReport = Daily.GetSumOfReports(new string[] { "LINOCUR" });}
+            @{var LinocurTotalReport = Daily.GetSumOfReports(new string[] { "LINOCURSZER" });}
             <div class="head-cell grid" style="height:50%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white;">Összesen</div>
             <div class="neutral-cell grid" style="height:50%;width:18%;">@LinocurTotalReport.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:50%;width:18%;">@LinocurTotalReport.GetNormaIdo()</div>
