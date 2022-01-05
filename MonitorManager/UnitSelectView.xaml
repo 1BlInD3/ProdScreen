@@ -8,19 +8,20 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="66*"/>
+            <RowDefinition Height="63*"/>
+            <RowDefinition Height="118*"/>
+            <RowDefinition Height="75*"/>
         </Grid.RowDefinitions>
 
         <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Margin="100,0">Válaszd ki a jóváhagyni kívánt cellákat!</Label>
-        <CheckBox Name="cbGroup1" VerticalAlignment="Center" Margin="100,0" Grid.Row="1" Checked="cbGroup_Checked" Unchecked="cbGroup_Checked"/>
-        <CheckBox Name="cbGroup2" VerticalAlignment="Center" Margin="100,0" Grid.Row="2" Checked="cbGroup_Checked" Unchecked="cbGroup_Checked"/>
-        <CheckBox Name="cbGroup3" VerticalAlignment="Center" Margin="100,0" Grid.Row="3" Checked="cbGroup_Checked" Unchecked="cbGroup_Checked"/>
-        <CheckBox Name="cbGroup4" VerticalAlignment="Center" Margin="100,0" Grid.Row="4" Checked="cbGroup_Checked" Unchecked="cbGroup_Checked"/>
+        <CheckBox Name="cbGroup1" VerticalAlignment="Center" Margin="100,21,100,18" Grid.Row="1" Checked="cbGroup_Checked" Unchecked="cbGroup_Checked" Height="14"/>
+        <CheckBox Name="cbGroup2" VerticalAlignment="Center" Margin="100,26,100,24" Grid.Row="2" Checked="cbGroup_Checked" Unchecked="cbGroup_Checked" Height="16"/>
+        <CheckBox Name="cbGroup3" VerticalAlignment="Center" Margin="100,24,100,25" Grid.Row="3" Checked="cbGroup_Checked" Unchecked="cbGroup_Checked" Height="14"/>
+        <CheckBox Name="cbGroup4" VerticalAlignment="Center" Margin="100,22,100,80" Grid.Row="4" Checked="cbGroup_Checked" Unchecked="cbGroup_Checked" Height="16"/>
+        <CheckBox Name="cbGroup5" VerticalAlignment="Center" Margin="100,72,20,30" Grid.Row="4" Checked="cbGroup_Checked" Unchecked="cbGroup_Checked" Height="16"/>
 
     </Grid>
 </UserControl>

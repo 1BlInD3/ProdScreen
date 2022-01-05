@@ -238,7 +238,7 @@
         <div style="position:absolute;right:0;width:90%;height:100%">
 
             <div class="productivity-head" style="height:50%;width:28%;border-bottom:1px solid white">Linocur</div>
-            <div class="productivity-target" style="height:50%;width:18%;border-bottom:1px solid white;">@Yearly.GetProduktivitas("LINOCURSZER",1)</div>
+            <div class="productivity-target" style="height:50%;width:18%;border-bottom:1px solid white;">@Yearly.GetProduktivitas("LINOCURSZER")</div>
             @for (int i = 0; i < 3; i++)
             {<div class="productivity-neutral" style="height:50%;width:18%;border-bottom:1px solid white;background-color:@Weekly.GetColor("LINOCURSZER", i)">@Weekly.GetProduktivitas("LINOCURSZER", i)</div>}
 

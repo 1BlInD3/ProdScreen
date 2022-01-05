@@ -45,6 +45,7 @@ namespace MonitorManager
             cbGroup2.Content = GetNames(StringData.Group2);
             cbGroup3.Content = GetNames(StringData.Group3);
             cbGroup4.Content = GetNames(StringData.Group4);
+            cbGroup5.Content = GetNames(StringData.Group5);
         }
 
         private void cbGroup_Checked(object sender, RoutedEventArgs e)
@@ -52,7 +53,8 @@ namespace MonitorManager
             bool anyChecked = cbGroup1.IsChecked == true |
                 cbGroup2.IsChecked == true |
                 cbGroup3.IsChecked == true |
-                cbGroup4.IsChecked == true;
+                cbGroup4.IsChecked == true |
+                cbGroup5.IsChecked == true;
 
             if (anyChecked) ((Button)parent.FindName("btnForth")).IsEnabled = true;
             else ((Button)parent.FindName("btnForth")).IsEnabled = false;
@@ -69,7 +71,8 @@ namespace MonitorManager
                 foreach (var n in StringData.Group3) list.Add(n);
             if (cbGroup4.IsChecked == true)
                 foreach (var n in StringData.Group4) list.Add(n);
-            
+            if (cbGroup5.IsChecked == true)
+                foreach (var n in StringData.Group5) list.Add(n);
             return list;
         }
     }

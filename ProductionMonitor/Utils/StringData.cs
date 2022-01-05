@@ -58,13 +58,7 @@
 
         public static readonly string[] Group4 = new string[]
         {
-            //"LM1",
-            //"LM2",
-            //"LM3",
-            //"LMA000",
-            //"LMM",
-            //"LMMHC",
-            //"NH000W"
+
             "LM1",
             "LM2",
             "LM3",
@@ -73,7 +67,23 @@
             "LMMHC",
             "NH000W",
             "LMA000"
+            // "MULTIVERT00",
+            //"MULTIBLOC00",
+            //"MV_MB-SPECIAL",
+            //"MULTIVERT1-3",
+            //"MULTIBLOC1-3",
+            //"MV_MB-ACCESSORIES"
 
+        };
+
+        public static readonly string[] Group5 = new string[]
+        {
+            "MULTIVERT00",
+            "MULTIBLOC00",
+            "MV_MB-SPECIAL",
+            "MULTIVERT1-3",
+            "MULTIBLOC1-3",
+            "MV_MB-ACCESSORIES"
         };
 
         public static readonly string[] Munkahelyek = new string[]
@@ -113,6 +123,12 @@
             "WASTE",
             //"REWORK",
             "TROGGER"
+            //"MULTIVERT00",
+            //"MULTIBLOC00",
+            //"MV_MB-SPECIAL",
+            //"MULTIVERT1-3",
+            //"MULTIBLOC1-3",
+            //"MV_MB-ACCESSORIES"
         };
     }
 }

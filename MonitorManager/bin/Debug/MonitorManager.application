@@ -7,14 +7,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="MonitorManager.exe.manifest" size="10846">
+    <dependentAssembly dependencyType="install" codebase="MonitorManager.exe.manifest" size="12891">
       <assemblyIdentity name="MonitorManager.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pKyBQSfS51y0WgYgq9C/4/fx6oYVn4noxlUPbupf4D0=</dsig:DigestValue>
+        <dsig:DigestValue>elRqASyIOdPSQUok1Hj8wvhy/ZMFoEMWfo+UlrZf+Wg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\balindattila\Desktop\lacas_monitor</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\balindattila\Desktop\NORBITECH</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="ApplicationInsights.config">
@@ -67,10 +67,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/18/2018 08:44:54</publishTime>
     </File>
     <File Include="bin/ProductionMonitor.dll">
-      <publishTime>07/08/2021 11:32:09</publishTime>
+      <publishTime>01/04/2022 11:51:08</publishTime>
     </File>
     <File Include="bin/ProductionMonitor.pdb">
-      <publishTime>07/08/2021 11:32:09</publishTime>
+      <publishTime>01/04/2022 11:51:08</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>11/01/2018 13:23:06</publishTime>
@@ -451,7 +451,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/14/2018 08:57:52</publishTime>
     </File>
     <File Include="Scripts/remotecontrol.js">
-      <publishTime>04/24/2020 14:54:47</publishTime>
+      <publishTime>01/04/2022 11:51:06</publishTime>
     </File>
     <File Include="Scripts/servertime.js">
       <publishTime>01/29/2019 10:50:40</publishTime>
@@ -481,7 +481,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/18/2019 08:34:34</publishTime>
     </File>
     <File Include="Views/Home/GroupView.cshtml">
-      <publishTime>04/24/2020 14:55:00</publishTime>
+      <publishTime>07/09/2021 08:13:29</publishTime>
     </File>
     <File Include="Views/Home/GroupView_backup.cshtml">
       <publishTime>02/15/2019 12:05:30</publishTime>
@@ -493,7 +493,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/24/2020 14:55:04</publishTime>
     </File>
     <File Include="Views/Home/WeeklyProd.cshtml">
-      <publishTime>07/08/2021 13:04:35</publishTime>
+      <publishTime>07/09/2021 07:42:35</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>12/14/2018 08:57:37</publishTime>

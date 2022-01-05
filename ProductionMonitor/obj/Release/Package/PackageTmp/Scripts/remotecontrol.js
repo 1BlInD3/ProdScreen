@@ -11,11 +11,11 @@
 
     if (keycode == 34) { //BACK (page down)
         currentPage--;
-        if (currentPage < 1) currentPage = 4;
+        if (currentPage < 1) currentPage = 5;
         window.location.replace("/Home/GroupView/" + currentPage);
     } else if (keycode == 33) { //NEXT (page up)
         currentPage++;
-        if (currentPage > 4) currentPage = 1;
+        if (currentPage > 5) currentPage = 1;
         window.location.href = "/Home/GroupView/" + currentPage;
     } else if (keycode == 49) { //1
         currentPage = 1;
@@ -30,10 +30,14 @@
         currentPage = 4;
         window.location.href = "/Home/GroupView/" + currentPage;
     } else if (keycode == 53) { //5
-        window.location.href = "/Home/DailyProd";
+        currentPage = 5;
+        window.location.href = "/Home/GroupView/" + currentPage;
     } else if (keycode == 54) { //6
+        window.location.href = "/Home/DailyProd";
+    } else if (keycode == 55) {//7
         window.location.href = "/Home/WeeklyProd";
-    } else if (keycode == 413 | keycode == 36) { //STOP 413, HOME 36
+    }
+    else if (keycode == 413 | keycode == 36) { //STOP 413, HOME 36
         var fadingElements = document.getElementsByClassName("animated-layer");
         var k;
         for (k = 0; k < fadingElements.length; k++)

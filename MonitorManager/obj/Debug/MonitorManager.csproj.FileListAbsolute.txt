@@ -98,3 +98,8 @@ W:\Attila_programok\prodScreen_Attila\MonitorManager\obj\Debug\MonitorManager.ap
 W:\Attila_programok\prodScreen_Attila\MonitorManager\obj\Debug\MonitorManager.csproj.CopyComplete
 W:\Attila_programok\prodScreen_Attila\MonitorManager\obj\Debug\MonitorManager.exe
 W:\Attila_programok\prodScreen_Attila\MonitorManager\obj\Debug\MonitorManager.pdb
+W:\Attila_programok\prodScreen_Attila\MonitorManager\bin\Debug\WebGrease.dll
+W:\Attila_programok\prodScreen_Attila\MonitorManager\bin\Debug\Antlr3.Runtime.dll
+W:\Attila_programok\prodScreen_Attila\MonitorManager\bin\Debug\Newtonsoft.Json.dll
+W:\Attila_programok\prodScreen_Attila\MonitorManager\bin\Debug\Antlr3.Runtime.pdb
+W:\Attila_programok\prodScreen_Attila\MonitorManager\bin\Debug\Newtonsoft.Json.xml
