@@ -34,6 +34,7 @@
         window.location.href = "/Home/GroupView/" + currentPage;
     } else if (keycode == 54) { //6
         window.location.href = "/Home/DailyProd";
+       // window.location.href = "/Home/DailyProdFsd";
     } else if (keycode == 55) {//7
         window.location.href = "/Home/WeeklyProd";
     }

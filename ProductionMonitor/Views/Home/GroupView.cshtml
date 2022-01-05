@@ -29,7 +29,7 @@
     {
         <div class="unit">
             <div class="unit-head vertical-header-box">
-                <p class="vertical-header">@item.UnitName</p>
+                <p style="font-size:30px" class="vertical-header">@item.UnitName</p>
             </div>
             @{var day = (item as ProductionHistory).Count() != 0 ? (item as ProductionHistory).Last() : new ProductionDay();}
 
@@ -121,7 +121,7 @@
     {
         <div class="unit" style="width:33.33vw;height:33.33vh;">
             <div class="unit-head vertical-header-box">
-                <p class="vertical-header">@item.UnitName</p>
+                <p style="font-size:30px" class="vertical-header">@item.UnitName</p>
             </div>
             <div class="unit-body  head-cell">
                 <div class="vertical-header-box axis-y-header-box">
