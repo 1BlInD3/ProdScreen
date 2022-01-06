@@ -101,6 +101,7 @@
         {
             "GCDAN",
             "LINOCURSZER",
+            "LINOCURALK",
             "LM4",
             "SZINTER",
             "BRAZING",
