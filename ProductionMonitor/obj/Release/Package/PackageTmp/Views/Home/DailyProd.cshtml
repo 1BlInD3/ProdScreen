@@ -386,19 +386,19 @@
 
     <div class="column" style="height:33.333%;width:33.33vw;position:absolute;left:66.66vw;bottom:0">
         <div class="unit-head vertical-header-box">
-            <p class="vertical-header">TOTAL</p>
+            <p class="vertical-header">GUBA S. TOTAL</p>
         </div>
 
         <div style="position:absolute;right:0;width:90%;height:100%">
 
             @{var subTotalsReport = Daily.GetSumOfReports(StringData.Munkahelyek.Where(x => x != "WASTE" && x != "REWORK" && x != "TROGGER").ToArray());}
-            <div class="head-cell grid" style="height:20%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white;border-bottom:1px solid white">Részössz.</div>
-            <div class="neutral-cell grid" style="height:20%;width:18%;border-bottom:1px solid white">@subTotalsReport.GetDolgozokSzama()</div>
-            <div class="neutral-cell target-cell grid" style="height:20%;width:18%;border-bottom:1px solid white">@subTotalsReport.GetNormaIdo()</div>
-            <div class="neutral-cell grid" style="height:20%;width:18%;border-bottom:1px solid white;background-color:@subTotalsReport.GetColor()">@subTotalsReport.GetDolgOra()</div>
-            <div class="neutral-cell grid" style="height:20%;width:18%;border-bottom:1px solid white;background-color:@subTotalsReport.GetColor()">@subTotalsReport.GetProduktivitas(1, false)</div>
+            <div class="head-cell grid" style="height:100%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white">Részössz.</div>
+            <div class="neutral-cell grid" style="height:100%;width:18%">@subTotalsReport.GetDolgozokSzama()</div>
+            <div class="neutral-cell target-cell grid" style="height:100%;width:18%">@subTotalsReport.GetNormaIdo()</div>
+            <div class="neutral-cell grid" style="height:100%;width:18%;background-color:@subTotalsReport.GetColor()">@subTotalsReport.GetDolgOra()</div>
+            <div class="neutral-cell grid" style="height:100%;width:18%;background-color:@subTotalsReport.GetColor()">@subTotalsReport.GetProduktivitas(1, false)</div>
 
-            @{var wasteReport = Daily.GetReport("WASTE");}
+            @*@{var wasteReport = Daily.GetReport("WASTE");}
             <div class="head-cell grid" style="height:20%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white">Waste</div>
             <div class="neutral-cell grid" style="height:20%;width:18%">@wasteReport.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:20%;width:18%">@wasteReport.GetNormaIdo()</div>
@@ -424,7 +424,7 @@
             <div class="neutral-cell grid" style="height:20%;width:18%;">@totalsReport.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:20%;width:18%;">@totalsReport.GetNormaIdo()</div>
             <div class="neutral-cell grid" style="height:20%;width:18%;background-color:@totalsReport.GetColor()">@totalsReport.GetDolgOra()</div>
-            <div class="neutral-cell grid" style="height:20%;width:18%;background-color:@totalsReport.GetColor()">@totalsReport.GetProduktivitas(1, false)</div>
+            <div class="neutral-cell grid" style="height:20%;width:18%;background-color:@totalsReport.GetColor()">@totalsReport.GetProduktivitas(1, false)</div>*@
 
         </div>
     </div>

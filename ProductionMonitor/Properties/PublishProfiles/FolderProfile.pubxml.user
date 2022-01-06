@@ -451,7 +451,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/14/2018 08:57:52</publishTime>
     </File>
     <File Include="Scripts/remotecontrol.js">
-      <publishTime>01/05/2022 10:33:40</publishTime>
+      <publishTime>01/06/2022 13:46:17</publishTime>
     </File>
     <File Include="Scripts/servertime.js">
       <publishTime>01/29/2019 10:50:40</publishTime>
@@ -466,10 +466,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/14/2018 08:57:37</publishTime>
     </File>
     <File Include="Views/Home/DailyProd.cshtml">
-      <publishTime>07/08/2021 11:32:08</publishTime>
+      <publishTime>01/06/2022 14:30:16</publishTime>
     </File>
     <File Include="Views/Home/DailyProdFSD.cshtml">
-      <publishTime>01/05/2022 13:35:43</publishTime>
+      <publishTime>01/06/2022 07:39:07</publishTime>
     </File>
     <File Include="Views/Home/Group1View.cshtml">
       <publishTime>01/18/2019 08:33:39</publishTime>
@@ -484,7 +484,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/18/2019 08:34:34</publishTime>
     </File>
     <File Include="Views/Home/GroupView.cshtml">
-      <publishTime>01/05/2022 09:39:00</publishTime>
+      <publishTime>01/06/2022 14:23:57</publishTime>
     </File>
     <File Include="Views/Home/GroupView_backup.cshtml">
       <publishTime>02/15/2019 12:05:30</publishTime>

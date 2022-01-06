@@ -34,8 +34,9 @@
         window.location.href = "/Home/GroupView/" + currentPage;
     } else if (keycode == 54) { //6
         window.location.href = "/Home/DailyProd";
-       // window.location.href = "/Home/DailyProdFsd";
-    } else if (keycode == 55) {//7
+    } else if (keycode == 55) { //7
+         window.location.href = "/Home/DailyProdFsd";
+    } else if (keycode == 56) { //8
         window.location.href = "/Home/WeeklyProd";
     }
     else if (keycode == 413 | keycode == 36) { //STOP 413, HOME 36
