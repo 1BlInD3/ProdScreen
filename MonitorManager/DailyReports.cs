@@ -215,6 +215,24 @@ namespace MonitorManager
             => this.UnitName == "HH";
         public bool IsMV()
             => this.UnitName == "MV";
+
+        public bool IsMultivert00()
+             => this.UnitName == "MULTIVERT00";
+
+        public bool IsMultibloc00()
+             => this.UnitName == "MULTIBLOC00";
+
+        public bool IsMvMb()
+             => this.UnitName == "MV_MB-SPECIAL";
+
+        public bool IsMultivert13()
+            => this.UnitName == "MULTIVERT1-3";
+
+        public bool IsMultibloc13()
+            => this.UnitName == "MULTIBLOC1-3";
+
+        public bool IsMvMbAcc()
+            => this.UnitName == "MV_MB-ACCESSORIES";
     }
 
     /// <summary>

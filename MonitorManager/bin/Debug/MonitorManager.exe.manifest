@@ -91,14 +91,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MonitorManager.exe" size="276992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MonitorManager.exe" size="277504">
       <assemblyIdentity name="MonitorManager" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>eo51rZ/gSk0Xj2FYjI3gGiEEFq2wh8/OsbINvgFPTUo=</dsig:DigestValue>
+        <dsig:DigestValue>Z9yEsUWma/86e6eOVS79EwSdZkmm0d/K1d+5UPUiVn8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -122,7 +122,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AV+IpJHjkp4WG0f1LRi0EyXkPEkIpUwBuarj9Tf6hd8=</dsig:DigestValue>
+        <dsig:DigestValue>Z2RO8of+ZN/62BYHR3iDouVG5Gx5BP5xvj7Qn3vWQ8c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
