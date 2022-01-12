@@ -38,6 +38,8 @@
          window.location.href = "/Home/DailyProdFsd";
     } else if (keycode == 56) { //8
         window.location.href = "/Home/WeeklyProd";
+    } else if (keycode == 57) {//9
+        window.location.href = "/Home/WeeklyProdFsd";
     }
     else if (keycode == 413 | keycode == 36) { //STOP 413, HOME 36
         var fadingElements = document.getElementsByClassName("animated-layer");

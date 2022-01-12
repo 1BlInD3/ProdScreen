@@ -213,6 +213,7 @@
     <Content Include="Views\Home\DailyProd.cshtml" />
     <Content Include="Views\Home\WeeklyProd.cshtml" />
     <Content Include="Views\Home\DailyProdFsd.cshtml" />
+    <Content Include="Views\Home\WeeklyProdFsd.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

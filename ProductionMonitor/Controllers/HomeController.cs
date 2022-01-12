@@ -63,6 +63,14 @@
             return View(mymodel);
         }
 
+        public ActionResult WeeklyProdFsd()
+        {
+            dynamic mymodel = new ExpandoObject();
+            mymodel.Yearly = yearly ?? (yearly = YearlyProductivityReportCollection.GetLastYearsReport());
+            mymodel.Weekly = weekly ?? (weekly = WeeklyProductivityReportCollection.GetWeeklyReport());
+            return View(mymodel);
+        }
+
         public ActionResult Test(string id)
         {
             string[] selected;
