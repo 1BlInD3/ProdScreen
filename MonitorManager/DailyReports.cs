@@ -232,7 +232,7 @@ namespace MonitorManager
             => this.UnitName == "MULTIBLOC1-3";
 
         public bool IsMvMbAcc()
-            => this.UnitName == "MV_MB-ACCESSORIES";
+            => this.UnitName == "FSD-ACCESSORIES";
     }
 
     /// <summary>

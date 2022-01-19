@@ -215,7 +215,7 @@
 									  when Munkahely = 'MV_MB-SPECIAL' then 'SPECIAL'
 									  when Munkahely = 'MULTIVERT1-3' then 'MV1-3'
 									  when Munkahely = 'MULTIBLOC1-3' then 'MB1-3'
-									  when Munkahely = 'MV_MB-ACCESSORIES' then 'ACCESS'
+									  when Munkahely = 'FSD-ACCESSORIES' then 'ACCESS'
 			                          else Munkahely end as Munkahely
                               ,isnull(SUM(Ido),0) as NormaIdo
 	                          ,SUM(DO.DolgOra) as DolgOra
@@ -240,7 +240,7 @@
 									  when Munkahely = 'MV_MB-SPECIAL' then 'SPECIAL'
 									  when Munkahely = 'MULTIVERT1-3' then 'MV1-3'
 									  when Munkahely = 'MULTIBLOC1-3' then 'MB1-3'
-									  when Munkahely = 'MV_MB-ACCESSORIES' then 'ACCESS'
+									  when Munkahely = 'FSD-ACCESSORIES' then 'ACCESS'
 			                          else Munkahely end";
 
             var list = new DailyProductivityReportCollection() { Date = date };

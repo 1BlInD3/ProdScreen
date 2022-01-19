@@ -83,7 +83,7 @@
             "MV_MB-SPECIAL",
             "MULTIVERT1-3",
             "MULTIBLOC1-3",
-            "MV_MB-ACCESSORIES"
+            "FSD-ACCESSORIES"
         };
 
         public static readonly string[] Munkahelyek2 = new string[]
