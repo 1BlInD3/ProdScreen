@@ -331,49 +331,48 @@
 
     <div class="column" style="height:66.66%;width:33.33vw;position:absolute;left:66.66vw;bottom:0">
         <div class="unit-head vertical-header-box">
-            <p class="vertical-header">TOTAL</p>
+            <p class="vertical-header">FUSETECH TOTAL</p>
         </div>
 
         <div style="position:absolute;right:0;width:90%;height:100%">
 
-            <div class="productivity-head" style="height:16.66%;width:28%;border-bottom:1px solid white">Guba S.</div>
+            <div class="productivity-head" style="height:16.66%;width:28%">Guba S.</div>
             @*<div class="productivity-target" style="height:20%;width:18%;border-bottom:1px solid white;">@Yearly.GetSummedProduktivitas(StringData.Munkahelyek.Where(x => x != "WASTE" && x != "REWORK" && x != "TROGGER").ToArray(), decimalPlaces: 1)</div>
         @for (int i = 0; i < 3; i++)
         {<div class="productivity-neutral" style="height:20%;width:18%;border-bottom:1px solid white;background-color:@Weekly.GetSummedColor(StringData.Munkahelyek.Where(x=>x!="WASTE" && x!="REWORK" && x!="TROGGER").ToArray(), dayIndex:i)">@Weekly.GetSummedProduktivitas(StringData.Munkahelyek.Where(x => x != "WASTE" && x != "REWORK" && x != "TROGGER").ToArray(), dayIndex: i)</div>}*@
 
-            <div class="productivity-target" style="height:16.66%;width:18%;border-bottom:1px solid white;">@Yearly.GetSummedProduktivitas(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA" }, decimalPlaces: 1)</div>
+            <div class="productivity-target" style="height:16.66%;width:18%">@Yearly.GetSummedProduktivitas(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA" }, decimalPlaces: 1)</div>
             @*@for (int i = 0; i < 3; i++)
         {<div class="productivity-neutral" style="height:20%;width:18%;border-bottom:1px solid white;background-color:@Weekly.GetSummedColor(StringData.Munkahelyek.Where(x=>x!="WASTE" && x!="REWORK" && x!="TROGGER").ToArray(), dayIndex:i)">@Weekly.GetSummedProduktivitas(StringData.Munkahelyek.Where(x => x != "WASTE" && x != "REWORK" && x != "TROGGER").ToArray(), dayIndex: i)</div>}*@
 
             @for (int i = 0; i < 3; i++)
-            {<div class="productivity-neutral" style="height:16.66%;width:18%;border-bottom:1px solid white;background-color:@Weekly.GetSummedColor(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA" }, dayIndex:i)">@Weekly.GetSummedProduktivitas(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA" }, dayIndex: i)</div>}
+            {<div class="productivity-neutral" style="height:16.66%;width:18%;background-color:@Weekly.GetSummedColor(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA" }, dayIndex:i)">@Weekly.GetSummedProduktivitas(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA" }, dayIndex: i)</div>}
 
 
-            @*<div class="productivity-head" style="height:20%;width:28%;">Waste</div>
-            <div class="productivity-target" style="height:20%;width:18%;">@Yearly.GetProduktivitas("WASTE")</div>
+            <div class="productivity-head" style="height:16.66%;width:28%;border-bottom:1px solid white">Raktár U</div>
+            <div class="productivity-target" style="height:16.66%;width:18%;border-bottom:1px solid white;">@Yearly.GetSummedProduktivitas(new string[] { "MULTIVERT00", "MULTIVERT1-3", "MULTIBLOC00", "MULTIBLOC1-3", "MV_MB-SPECIAL", "FSD-ACCESSORIES" })</div>
             @for (int i = 0; i < 3; i++)
-            {<div class="productivity-neutral" style="height:20%;width:18%;background-color:@Weekly.GetColor("WASTE", i)">@Weekly.GetProduktivitas("WASTE", i)</div>}
+            {<div class="productivity-neutral" style="height:16.66%;width:18%;border-bottom:1px solid white;background-color:@Weekly.GetSummedColor(new string[] { "MULTIVERT00", "MULTIVERT1-3", "MULTIBLOC00", "MULTIBLOC1-3", "MV_MB-SPECIAL", "FSD-ACCESSORIES" },i)">@Weekly.GetSummedProduktivitas(new string[] { "MULTIVERT00", "MULTIVERT1-3", "MULTIBLOC00", "MULTIBLOC1-3", "MV_MB-SPECIAL", "FSD-ACCESSORIES" }, i)</div>}
 
-            <div class="productivity-head" style="height:20%;width:28%;">Rework</div>
-            <div class="productivity-target" style="height:20%;width:18%;">@Yearly.GetProduktivitas("REWORK")</div>
+            <div class="productivity-head" style="height:16.66%;width:28%;">Waste</div>
+            <div class="productivity-target" style="height:16.66%;width:18%;">@Yearly.GetProduktivitas("WASTE")</div>
             @for (int i = 0; i < 3; i++)
-            {<div class="productivity-neutral" style="height:20%;width:18%;background-color:@Weekly.GetColor("REWORK", i)">@Weekly.GetProduktivitas("REWORK", i)</div>}
+            {<div class="productivity-neutral" style="height:16.66%;width:18%;background-color:@Weekly.GetColor("WASTE", i)">@Weekly.GetProduktivitas("WASTE", i)</div>}
 
-            <div class="productivity-head" style="height:20%;width:28%;border-bottom:1px solid white">Trogger</div>
-            <div class="productivity-target" style="height:20%;width:18%;border-bottom:1px solid white;">@Yearly.GetProduktivitas("TROGGER")</div>
+            <div class="productivity-head" style="height:16.66%;width:28%;">Rework</div>
+            <div class="productivity-target" style="height:16.66%;width:18%;">@Yearly.GetProduktivitas("REWORK")</div>
             @for (int i = 0; i < 3; i++)
-            {<div class="productivity-neutral" style="height:20%;width:18%;border-bottom:1px solid white;background-color:@Weekly.GetColor("TROGGER", i)">@Weekly.GetProduktivitas("TROGGER", i)</div>}
+            {<div class="productivity-neutral" style="height:16.66%;width:18%;background-color:@Weekly.GetColor("REWORK", i)">@Weekly.GetProduktivitas("REWORK", i)</div>}
 
-
-            <div class="productivity-head" style="height:20%;width:28%;">Végössz.</div>*@
-            @*<div class="productivity-target" style="height:20%;width:18%;">@Yearly.GetSummedProduktivitas(StringData.Munkahelyek, decimalPlaces: 1)</div>
-        @for (int i = 0; i < 3; i++)
-        {<div class="productivity-neutral" style="height:20%;width:18%;background-color:@Weekly.GetSummedColor(StringData.Munkahelyek, dayIndex:i)">@Weekly.GetSummedProduktivitas(StringData.Munkahelyek, dayIndex: i, decimalPlaces: 0)</div>}*@
-
-            @*<div class="productivity-target" style="height:20%;width:18%;">@Yearly.GetSummedProduktivitas(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA","WASTE","TROGGER" }, decimalPlaces: 1)</div>
+            <div class="productivity-head" style="height:16.66%;width:28%;border-bottom:1px solid white">Trogger</div>
+            <div class="productivity-target" style="height:16.66%;width:18%;border-bottom:1px solid white;">@Yearly.GetProduktivitas("TROGGER")</div>
             @for (int i = 0; i < 3; i++)
-            {<div class="productivity-neutral" style="height:20%;width:18%;background-color:@Weekly.GetSummedColor(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA","WASTE","TROGGER" }, dayIndex:i)">@Weekly.GetSummedProduktivitas(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA","WASTE","TROGGER" }, dayIndex: i, decimalPlaces: 0)</div>}*@
+            {<div class="productivity-neutral" style="height:16.66%;width:18%;border-bottom:1px solid white;background-color:@Weekly.GetColor("TROGGER", i)">@Weekly.GetProduktivitas("TROGGER", i)</div>}
 
+            <div class="productivity-head" style="height:16.66%;width:28%;">Végössz.</div>
+            <div class="productivity-target" style="height:16.66%;width:18%;">@Yearly.GetSummedProduktivitas(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA","WASTE","TROGGER", "MULTIVERT00", "MULTIVERT1-3", "MULTIBLOC00", "MULTIBLOC1-3", "MV_MB-SPECIAL", "FSD-ACCESSORIES" }, decimalPlaces: 1)</div>
+            @for (int i = 0; i < 3; i++)
+            {<div class="productivity-neutral" style="height:16.66%;width:18%;background-color:@Weekly.GetSummedColor(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA","WASTE","TROGGER","MULTIVERT00", "MULTIVERT1-3", "MULTIBLOC00", "MULTIBLOC1-3", "MV_MB-SPECIAL", "FSD-ACCESSORIES" }, dayIndex:i)">@Weekly.GetSummedProduktivitas(new string[] { "GCDAN", "LINOCURSZER", "LINOCURALK", "LM4", "SZINTER", "HAL2", "HAL3", "HH", "HH MV EXTRA", "LM1", "LM2", "LM3", "LMA000", "LMM", "LMM4", "LMMHC", "MV", "NH-MERSEN EXTRA", "NH-MSCH EXTRA", "NH-SPEC", "NH-WEBER", "NH-WEBER EXTRA", "OLVADÓSZÁL", "SAJTOLÓ", "SPEC EXTRA", "TSA", "ÁRAMVÁLTÓ", "ÁRAMVÁLTÓ EXTRA","WASTE","TROGGER", "MULTIVERT00", "MULTIVERT1-3", "MULTIBLOC00", "MULTIBLOC1-3", "MV_MB-SPECIAL", "FSD-ACCESSORIES" }, dayIndex: i, decimalPlaces: 0)</div>}
 
         </div>
     </div>
