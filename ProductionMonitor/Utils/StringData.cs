@@ -17,30 +17,15 @@
 
         public static readonly string[] Group1 = new string[]
         {
-            //"BRAZING",
-            //"HH",
-            //"MV",
-            //"GCDAN",
-            //"NH-SPEC",
-            //"ÁRAMVÁLTÓ",
-            //"LMM4"
             "ÁRAMVÁLTÓ",
             "GCDAN",
             "LMM4",
             "NH-SPEC"
-
         };
 
         public static readonly string[] Group2 = new string[]
         {
-            //"BRAZING",
-            //"HH",
-            //"MV",
-            //"GCDAN",
-            //"NH-SPEC",
-            //"ÁRAMVÁLTÓ",
-            //"LMM4",
-            //"LINOCUR"
+           
             "HH",
             "MV",
             "BRAZING",
@@ -51,7 +36,6 @@
         {
             "HAL2",
             "HAL3",
-            //"HALM",
             "TSA",
             "NH-WEBER"
         };
@@ -66,41 +50,27 @@
             "LMM",
             "LMMHC",
             "NH000W",
-            "LMA000"
-            // "MULTIVERT00",
-            //"MULTIBLOC00",
-            //"MV_MB-SPECIAL",
-            //"MULTIVERT1-3",
-            //"MULTIBLOC1-3",
-            //"MV_MB-ACCESSORIES"
-
+            "LMA000"  
         };
 
         public static readonly string[] Group5 = new string[]
         {
             "MULTIVERT00",
-            "MULTIBLOC00",
             "MV_MB-SPECIAL",
+            "MULTIBLOC00",
             "MULTIVERT1-3",
-            "MULTIVERT1-3-4P",
+            "FSD-ACCESSORIES",
             "MULTIBLOC1-3",
-            "FSD-ACCESSORIES"
-            //"FSD-FUSEBASE",
-            //"FSD-HANDLE"
-           
+            "MULTIVERT1-3-4P"
+                    
         };
 
-       // public static readonly string[] Munkahelyek2 = new string[]
-       //{
-       //    "MULTIVERT00",
-       //     "MULTIBLOC00",
-       //     "MV_MB-SPECIAL",
-       //     "MULTIVERT1-3",
-       //     "MULTIBLOC1-3",
-       //    // "MV_MB-ACCESSORIES"
-       //};
-
-
+        public static readonly string[] Group6 = new string[]
+        {
+            "FSD-FUSEBASE",
+            "FSD-HANDLE"
+        };
+  
         public static readonly string[] Munkahelyek = new string[]
         {
             "GCDAN",
@@ -141,49 +111,5 @@
             "TROGGER"
         };
 
-       // public static readonly string[] Munkahelyek3 = new string[]
-       //{
-       //     "GCDAN",
-       //     "LINOCURSZER",
-       //     "LM4",
-       //     "SZINTER",
-       //     "BRAZING",
-       //     //"HAL1",
-       //     "HAL2",
-       //     "HAL3",
-       //     //"HALM",
-       //     "HH",
-       //     "HH MV EXTRA",
-       //     "LM1",
-       //     "LM2",
-       //     "LM3",
-       //     "LMA000",
-       //     "LMM",
-       //     //"LMM000",
-       //     "LMM4",
-       //     "LMMHC",
-       //     //"MSM3",
-       //     "MV",
-       //     "NH-MERSEN EXTRA",
-       //     "NH-MSCH EXTRA",
-       //     "NH-SPEC",
-       //     "NH-WEBER",
-       //     "NH-WEBER EXTRA",
-       //     "OLVADÓSZÁL",
-       //     "SAJTOLÓ",
-       //     "SPEC EXTRA",
-       //     "TSA",
-       //     "ÁRAMVÁLTÓ",
-       //     "ÁRAMVÁLTÓ EXTRA",
-       //    "MULTIVERT00",
-       //     "MULTIBLOC00",
-       //     "MV_MB-SPECIAL",
-       //     "MULTIVERT1-3",
-       //     "MULTIBLOC1-3",
-       //     "MV_MB-ACCESSORIES",
-       //     "WASTE",
-       //     //"REWORK",
-       //     "TROGGER"
-       //};
     }
 }

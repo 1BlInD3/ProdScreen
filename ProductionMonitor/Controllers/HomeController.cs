@@ -13,6 +13,9 @@
             var histories = new List<ProductionHistory>();
             switch (id)
             {
+                case "6":
+                    selected = Utils.StringData.Group6;
+                    break;
                 case "5":
                     selected = Utils.StringData.Group5;
                     break;
