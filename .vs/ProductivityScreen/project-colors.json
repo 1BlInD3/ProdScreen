@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f265f720-0b4e-446d-bcb0-d8be4ad4e229": {
+      "ProjectGuid": "f265f720-0b4e-446d-bcb0-d8be4ad4e229",
+      "DisplayName": "ProductionMonitor",
+      "ColorIndex": 0
+    },
+    "37892f88-a562-482c-b283-1a11b714d5c1": {
+      "ProjectGuid": "37892f88-a562-482c-b283-1a11b714d5c1",
+      "DisplayName": "MonitorManager",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -35,49 +35,49 @@
 
         <div style="position:absolute;right:0;width:90%;height:100%">
 
-            @{var mv00Report = Daily.GetReport("MV00");}
+            @{var mv00Report = Daily.GetReport("MULTIVERT00");}
             <div class="head-cell grid" style="height:14.28%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white">MV00</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%">@mv00Report.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:14.28%;width:18%">@mv00Report.GetNormaIdo()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;background-color:@mv00Report.GetColor()">@mv00Report.GetDolgOra()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;background-color:@mv00Report.GetColor()">@mv00Report.GetProduktivitas(1, false)</div>
 
-            @{var mv13Report = Daily.GetReport("MV1-3");}
+            @{var mv13Report = Daily.GetReport("MULTIVERT1-3");}
             <div class="head-cell grid" style="height:14.28%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white">MV1-3</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%">@mv13Report.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:14.28%;width:18%">@mv13Report.GetNormaIdo()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;background-color:@mv13Report.GetColor()">@mv13Report.GetDolgOra()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;background-color:@mv13Report.GetColor()">@mv13Report.GetProduktivitas(1, false)</div>
 
-            @{var mb00Report = Daily.GetReport("MB00");}
+            @{var mb00Report = Daily.GetReport("MULTIBLOC00");}
             <div class="head-cell grid" style="height:14.28%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white">MB00</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%">@mb00Report.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:14.28%;width:18%">@mb00Report.GetNormaIdo()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;background-color:@mb00Report.GetColor()">@mb00Report.GetDolgOra()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;background-color:@mb00Report.GetColor()">@mb00Report.GetProduktivitas(1, false)</div>
 
-            @{var mb13Report = Daily.GetReport("MB1-3");}
+            @{var mb13Report = Daily.GetReport("MULTIBLOC1-3");}
             <div class="head-cell grid" style="height:14.28%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white">MB1-3</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%">@mb13Report.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:14.28%;width:18%">@mb13Report.GetNormaIdo()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;background-color:@mb13Report.GetColor()">@mb13Report.GetDolgOra()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;background-color:@mb13Report.GetColor()">@mb13Report.GetProduktivitas(1, false)</div>
 
-            @{var mvMbSpecReport = Daily.GetReport("SPECIAL");}
+            @{var mvMbSpecReport = Daily.GetReport("MV_MB-SPECIAL");}
             <div class="head-cell grid" style="height:14.28%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white">SPECIAL</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%">@mvMbSpecReport.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:14.28%;width:18%">@mvMbSpecReport.GetNormaIdo()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;background-color:@mvMbSpecReport.GetColor()">@mvMbSpecReport.GetDolgOra()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;background-color:@mvMbSpecReport.GetColor()">@mvMbSpecReport.GetProduktivitas(1, false)</div>
 
-            @{var accessoriesReport = Daily.GetReport("ACCESS");}
+            @{var accessoriesReport = Daily.GetReport("FSD-ACCESSORIES");}
             <div class="head-cell grid" style="height:14.28%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white;border-bottom:1px solid white">ACCESS</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;border-bottom:1px solid white">@accessoriesReport.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:14.28%;width:18%;border-bottom:1px solid white">@accessoriesReport.GetNormaIdo()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;border-bottom:1px solid white;background-color:@accessoriesReport.GetColor()">@accessoriesReport.GetDolgOra()</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;border-bottom:1px solid white;background-color:@accessoriesReport.GetColor()">@accessoriesReport.GetProduktivitas(1, false)</div>
 
-            @{var mvMbTotalReport = Daily.GetSumOfReports(new string[] { "MV00", "MV1-3", "MB00", "MB1-3", "SPECIAL", "ACCESS" });}
+            @{var mvMbTotalReport = Daily.GetSumOfReports(new string[] { "MULTIVERT00", "MULTIVERT1-3", "MULTIBLOC00", "MULTIBLOC1-3", "MV_MB-SPECIAL", "FSD-ACCESSORIES" });}
             <div class="head-cell grid" style="height:14.28%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white;">Összesen</div>
             <div class="neutral-cell grid" style="height:14.28%;width:18%;">@mvMbTotalReport.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:14.28%;width:18%;">@mvMbTotalReport.GetNormaIdo()</div>
@@ -147,7 +147,7 @@
             <div class="neutral-cell grid" style="height:16.66%;width:18%;background-color:@subTotalsReport.GetColor()">@subTotalsReport.GetDolgOra()</div>
             <div class="neutral-cell grid" style="height:16.66%;width:18%;background-color:@subTotalsReport.GetColor()">@subTotalsReport.GetProduktivitas(1, false)</div>
 
-            @{var mvMbTotalReport2 = Daily.GetSumOfReports(new string[] { "MV00", "MV1-3", "MB00", "MB1-3", "SPECIAL", "ACCESS" });}
+            @{var mvMbTotalReport2 = Daily.GetSumOfReports(new string[] { "MULTIVERT00", "MULTIVERT1-3", "MULTIBLOC00", "MULTIBLOC1-3", "MV_MB-SPECIAL", "FSD-ACCESSORIES" });}
             <div class="head-cell grid" style="height:16.66%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white;border-bottom:1px solid white">Raktár U.</div>
             <div class="neutral-cell grid" style="height:16.66%;width:18%;border-bottom:1px solid white">@mvMbTotalReport2.GetDolgozokSzama()</div>
             <div class="neutral-cell target-cell grid" style="height:16.66%;width:18%;border-bottom:1px solid white">@mvMbTotalReport2.GetNormaIdo()</div>
@@ -176,7 +176,7 @@
             <div class="neutral-cell grid" style="height:16.66%;width:18%;border-bottom:1px solid white;background-color:@troggerReport.GetColor()">@troggerReport.GetProduktivitas(1, false)</div>
 
             @{
-                string[] a = { "MV00", "MV1-3", "MB00", "MB1-3", "SPECIAL", "ACCESS" };
+                string[] a = { "MULTIVERT00", "MULTIVERT1-3", "MULTIBLOC00", "MULTIBLOC1-3", "MV_MB-SPECIAL", "FSD-ACCESSORIES" };
                 var totalsReport = Daily.GetSumOfReports(StringData.Munkahelyek.Concat(a).ToArray());}
             <div class="head-cell grid" style="height:16.66%;width:28%;justify-content:end;padding-right:5px;border-right:5px double white;">Végössz.</div>
             <div class="neutral-cell grid" style="height:16.66%;width:18%;">@totalsReport.GetDolgozokSzama()</div>

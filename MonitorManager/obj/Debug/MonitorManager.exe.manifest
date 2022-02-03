@@ -98,7 +98,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lpAprFuLI7GAKaO/lX66tsd4qPVR/IL/a2qUIQmyonI=</dsig:DigestValue>
+        <dsig:DigestValue>3eOXaRcdfWpBgoPsKut0rT5L89gfsPEoYLFsChyJkjE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -115,14 +115,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProductionMonitor.dll" size="41472">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProductionMonitor.dll" size="40960">
       <assemblyIdentity name="ProductionMonitor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZNoGfvyfYvBpqTn2cOiEaqDPNA1JPlDZtZyHyV70oOQ=</dsig:DigestValue>
+        <dsig:DigestValue>lxZeI1XoulpNJXzPILBdo/d8khTgW0ElLppJq7JkdGA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Fazekaslaszlo\Documents\ProductScreen</_PublishTargetUrl>
+    <History>True|2022-02-01T12:55:40.7982404Z;True|2022-02-01T13:37:35.4420762+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>12/14/2018 08:57:55</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>12/14/2018 08:57:55</publishTime>
+    </File>
+    <File Include="bin/LiveCharts.dll">
+      <publishTime>06/20/2017 00:26:42</publishTime>
+    </File>
+    <File Include="bin/LiveCharts.pdb">
+      <publishTime>06/20/2017 00:26:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>06/27/2017 12:59:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>02/22/2018 15:25:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>02/22/2018 15:36:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>02/22/2018 13:39:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>02/22/2018 15:35:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>02/22/2018 15:36:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>02/22/2018 13:36:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/28/2017 15:05:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 08:44:54</publishTime>
+    </File>
+    <File Include="bin/ProductionMonitor.dll">
+      <publishTime>02/01/2022 13:55:39</publishTime>
+    </File>
+    <File Include="bin/ProductionMonitor.pdb">
+      <publishTime>02/01/2022 13:55:39</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/19/2017 10:01:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 11:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 11:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 12:57:34</publishTime>
+    </File>
+    <File Include="Content/animations.css">
+      <publishTime>04/29/2020 10:15:55</publishTime>
+    </File>
+    <File Include="Content/pm.ico">
+      <publishTime>01/24/2019 08:44:29</publishTime>
+    </File>
+    <File Include="Content/styles.css">
+      <publishTime>10/04/2019 10:13:01</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/14/2018 08:57:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/14/2018 08:57:45</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/14/2018 08:57:45</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/14/2018 08:57:45</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/14/2018 08:57:45</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>12/14/2018 08:57:45</publishTime>
+    </File>
+    <File Include="fonts/MuseoSans_500.otf">
+      <publishTime>01/17/2019 13:14:47</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/14/2018 08:57:37</publishTime>
+    </File>
+    <File Include="Image/Backgrounds/DSC_3884.png">
+      <publishTime>06/20/2019 14:06:23</publishTime>
+    </File>
+    <File Include="Image/Backgrounds/IMG_1889.png">
+      <publishTime>06/20/2019 14:06:24</publishTime>
+    </File>
+    <File Include="Image/Backgrounds/IMG_8626.png">
+      <publishTime>06/20/2019 14:06:24</publishTime>
+    </File>
+    <File Include="Image/Backgrounds/IMG_9256.png">
+      <publishTime>06/20/2019 14:06:24</publishTime>
+    </File>
+    <File Include="Image/Backgrounds/IMG_9334.png">
+      <publishTime>06/20/2019 16:01:21</publishTime>
+    </File>
+    <File Include="Image/Backgrounds/LAN_2958.png">
+      <publishTime>06/20/2019 14:06:24</publishTime>
+    </File>
+    <File Include="Image/Backgrounds/LAN_3048.png">
+      <publishTime>06/20/2019 14:06:25</publishTime>
+    </File>
+    <File Include="Image/fusetech_logo.png">
+      <publishTime>10/21/2019 10:34:08</publishTime>
+    </File>
+    <File Include="Image/fusetech_logo_outlined.png">
+      <publishTime>10/21/2019 12:07:14</publishTime>
+    </File>
+    <File Include="Image/IMG_9288.png">
+      <publishTime>02/07/2019 14:13:56</publishTime>
+    </File>
+    <File Include="Image/NA.png">
+      <publishTime>01/21/2019 10:37:28</publishTime>
+    </File>
+    <File Include="Image/star.png">
+      <publishTime>01/21/2019 08:14:19</publishTime>
+    </File>
+    <File Include="Image/Static/1000_logo.png">
+      <publishTime>05/06/2019 13:05:28</publishTime>
+    </File>
+    <File Include="Image/Static/ft_logo.png">
+      <publishTime>05/06/2019 13:05:28</publishTime>
+    </File>
+    <File Include="Image/Static/FT_logo_1000_FHD.jpg">
+      <publishTime>04/18/2019 08:40:17</publishTime>
+    </File>
+    <File Include="keycodes.txt">
+      <publishTime>01/30/2019 09:27:37</publishTime>
+    </File>
+    <File Include="Scripts/remotecontrol.js">
+      <publishTime>01/12/2022 14:49:52</publishTime>
+    </File>
+    <File Include="Scripts/updateclock.js">
+      <publishTime>02/01/2019 14:37:22</publishTime>
+    </File>
+    <File Include="Views/Home/DailyProd.cshtml">
+      <publishTime>01/12/2022 14:22:29</publishTime>
+    </File>
+    <File Include="Views/Home/DailyProdFsd.cshtml">
+      <publishTime>01/18/2022 14:58:54</publishTime>
+    </File>
+    <File Include="Views/Home/GroupView.cshtml">
+      <publishTime>01/06/2022 14:23:57</publishTime>
+    </File>
+    <File Include="Views/Home/Test.cshtml">
+      <publishTime>04/24/2020 14:55:04</publishTime>
+    </File>
+    <File Include="Views/Home/WeeklyProd.cshtml">
+      <publishTime>01/19/2022 08:35:53</publishTime>
+    </File>
+    <File Include="Views/Home/WeeklyProdFsd.cshtml">
+      <publishTime>01/12/2022 15:08:10</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>12/14/2018 08:57:37</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/28/2019 07:44:12</publishTime>
+    </File>
+    <File Include="Views/Static/Index.cshtml">
+      <publishTime>04/18/2019 08:47:37</publishTime>
+    </File>
+    <File Include="Views/Static/Logo1000.cshtml">
+      <publishTime>05/06/2019 13:13:58</publishTime>
+    </File>
+    <File Include="Views/Static/LogoFt.cshtml">
+      <publishTime>05/06/2019 13:12:18</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>12/14/2018 08:57:37</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>12/14/2018 08:57:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/01/2022 13:37:27</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
