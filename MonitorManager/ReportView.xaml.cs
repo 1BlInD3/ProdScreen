@@ -31,7 +31,8 @@ namespace MonitorManager
             else if (Report.Shifts.Count == 2) cbTwelveHourDay.IsChecked = true;
             SetTextBlockValues();
             if (Report.IsHH() | Report.IsMV() | Report.IsMultivert00() | Report.IsMultibloc00() 
-                | Report.IsMvMb() | Report.IsMultivert13() | Report.IsMultibloc13() | Report.IsMvMbAcc()) cbTwelveHourDay.IsChecked = true;
+                | Report.IsMvMb() | Report.IsMultivert13() | Report.IsMultibloc13() 
+                | Report.IsMvMbAcc() | Report.IsMV134P() | Report.IsFuseBase() | Report.IsHandle()) cbTwelveHourDay.IsChecked = true;
         }
 
         private void SetTextBlockValues()

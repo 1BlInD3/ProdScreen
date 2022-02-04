@@ -233,6 +233,15 @@ namespace MonitorManager
 
         public bool IsMvMbAcc()
             => this.UnitName == "FSD-ACCESSORIES";
+
+        public bool IsMV134P()
+            => this.UnitName == "MULTIVERT1-3-4P";
+
+        public bool IsFuseBase()
+            => this.UnitName == "FSD-FUSEBASE";
+
+        public bool IsHandle()
+            => this.UnitName == "FSD-HANDLE";
     }
 
     /// <summary>

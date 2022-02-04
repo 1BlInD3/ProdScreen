@@ -45,7 +45,7 @@ namespace MonitorManager
             cbGroup2.Content = GetNames(StringData.Group2);
             cbGroup3.Content = GetNames(StringData.Group3);
             cbGroup4.Content = GetNames(StringData.Group4);
-            cbGroup5.Content = GetNames(StringData.Group5);
+            cbGroup5.Content = GetNames(StringData.Group5.Concat(StringData.Group6).ToArray());
         }
 
         private void cbGroup_Checked(object sender, RoutedEventArgs e)
@@ -72,7 +72,7 @@ namespace MonitorManager
             if (cbGroup4.IsChecked == true)
                 foreach (var n in StringData.Group4) list.Add(n);
             if (cbGroup5.IsChecked == true)
-                foreach (var n in StringData.Group5) list.Add(n);
+                foreach (var n in StringData.Group5.Concat(StringData.Group6).ToArray()) list.Add(n);
             return list;
         }
     }
