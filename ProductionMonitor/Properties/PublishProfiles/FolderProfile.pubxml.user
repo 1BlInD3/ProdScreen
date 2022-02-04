@@ -67,10 +67,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/18/2018 08:44:54</publishTime>
     </File>
     <File Include="bin/ProductionMonitor.dll">
-      <publishTime>02/03/2022 13:22:15</publishTime>
+      <publishTime>02/04/2022 08:11:29</publishTime>
     </File>
     <File Include="bin/ProductionMonitor.pdb">
-      <publishTime>02/03/2022 13:22:15</publishTime>
+      <publishTime>02/04/2022 08:11:29</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>11/01/2018 13:23:06</publishTime>
@@ -355,7 +355,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/21/2019 10:34:08</publishTime>
     </File>
     <File Include="Image/fusetech_logo_outlined.png">
-      <publishTime>10/21/2019 12:07:14</publishTime>
+      <publishTime>02/04/2022 08:11:01</publishTime>
     </File>
     <File Include="Image/fusetech_new.png">
       <publishTime>06/20/2019 16:46:13</publishTime>
@@ -466,10 +466,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/14/2018 08:57:37</publishTime>
     </File>
     <File Include="Views/Home/DailyProd.cshtml">
-      <publishTime>01/12/2022 14:22:29</publishTime>
+      <publishTime>02/04/2022 07:09:52</publishTime>
     </File>
     <File Include="Views/Home/DailyProdFSD.cshtml">
-      <publishTime>02/03/2022 11:19:21</publishTime>
+      <publishTime>02/04/2022 07:09:52</publishTime>
     </File>
     <File Include="Views/Home/Group1View.cshtml">
       <publishTime>01/18/2019 08:33:39</publishTime>
@@ -484,7 +484,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/18/2019 08:34:34</publishTime>
     </File>
     <File Include="Views/Home/GroupView.cshtml">
-      <publishTime>01/06/2022 14:23:57</publishTime>
+      <publishTime>02/04/2022 07:09:52</publishTime>
     </File>
     <File Include="Views/Home/GroupView_backup.cshtml">
       <publishTime>02/15/2019 12:05:30</publishTime>
@@ -496,10 +496,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/24/2020 14:55:04</publishTime>
     </File>
     <File Include="Views/Home/WeeklyProd.cshtml">
-      <publishTime>01/19/2022 08:35:53</publishTime>
+      <publishTime>02/04/2022 07:09:21</publishTime>
     </File>
     <File Include="Views/Home/WeeklyProdFsd.cshtml">
-      <publishTime>02/03/2022 12:04:50</publishTime>
+      <publishTime>02/04/2022 07:09:52</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>12/14/2018 08:57:37</publishTime>

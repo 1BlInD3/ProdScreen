@@ -115,14 +115,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProductionMonitor.dll" size="40960">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProductionMonitor.dll" size="39424">
       <assemblyIdentity name="ProductionMonitor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lxZeI1XoulpNJXzPILBdo/d8khTgW0ElLppJq7JkdGA=</dsig:DigestValue>
+        <dsig:DigestValue>8PEBCLy/UEyGqX5WDd7BnQOdnCOs7/AdQVHf8O9P8tc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
